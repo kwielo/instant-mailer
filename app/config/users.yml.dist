@@ -1,0 +1,13 @@
+users:
+    user_1:
+        apiKey: ~
+        name: ~
+        fromEmail: ~
+        fromName: ~
+        groups: ~
+        servers:
+            default:
+                smtpHost: ~
+                smtpUsername: ~
+                smtpPassword: ~
+                smtpPort: 587

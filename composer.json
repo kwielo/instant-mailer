@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-0": {
+            "Kielo\\": "src/"
+        }
+    },
+    "require": {
+        "slim/slim": "^2.6",
+        "phpmailer/phpmailer": "^5.2",
+        "symfony/yaml": "^2.7"
+    }
+}
