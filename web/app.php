@@ -12,7 +12,7 @@ $app->get('/', function() use ($app) {
     $app->render('layout.php', array());
 });
 
-$app->post('/api/v1/send:apiKey', function($apiKey) use ($app) {
+$app->post('/api/v1/send/:apiKey', function($apiKey) use ($app) {
 
     $userResolver = new \Kielo\UserResolver();
     $user = $userResolver->getUserByApiKey($apiKey);
